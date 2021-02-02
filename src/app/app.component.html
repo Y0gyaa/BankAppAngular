@@ -1,0 +1,16 @@
+
+ <div class = "header">
+    <h1>Bank</h1>
+  </div>
+
+<div class="leftcolumn">
+    <app-citylist></app-citylist> 
+</div>
+
+ <div class="rightcolumn">
+  <div style="margin:auto; width: 70%; margin-top: 30px;">
+    <app-searchbar (onSelectedOption)="onSelectedOption($event)"></app-searchbar>
+  </div> 
+
+    
+<router-outlet></router-outlet>
